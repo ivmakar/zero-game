@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        tools:context=".ScoreFragment">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:textSize="32sp"
+            android:textColor="@color/black"
+            android:text="Игра окончена!" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:textSize="18sp"
+            android:text="Счет:" />
+
+        <LinearLayout
+            android:id="@+id/l_team_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Команда 1:" />
+
+            <TextView
+                android:id="@+id/txt_team_1_score_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="0" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/l_team_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Команда 2:" />
+
+            <TextView
+                android:id="@+id/txt_team_2_score_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="0" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/l_team_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Команда 3:" />
+
+            <TextView
+                android:id="@+id/txt_team_3_score_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="0" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/l_team_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Команда 4:" />
+
+            <TextView
+                android:id="@+id/txt_team_4_score_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="0" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/l_team_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Команда 5:" />
+
+            <TextView
+                android:id="@+id/txt_team_5_score_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="0" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Продолжить"
+            android:layout_marginTop="32dp" />
+
+    </LinearLayout>
+</layout>

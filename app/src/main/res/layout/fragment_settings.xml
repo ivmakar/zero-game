@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:context=".SettingsFragment">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:text="Настройки" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Колличесво нулей:" />
+
+            <TextView
+                android:id="@+id/txt_zero_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:textColor="@color/black"
+                android:text="15%" />
+
+        </LinearLayout>
+
+        <SeekBar
+            android:id="@+id/zero_seek_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="100"
+            android:progress="15" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Колличесво кружочков:" />
+
+            <TextView
+                android:id="@+id/txt_count_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:textColor="@color/black"
+                android:text="100" />
+
+        </LinearLayout>
+
+        <SeekBar
+            android:id="@+id/count_seek_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="500"
+            android:progress="100" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Колличесво команд:" />
+
+            <TextView
+                android:id="@+id/txt_team_count_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:textColor="@color/black"
+                android:text="2" />
+
+        </LinearLayout>
+
+        <SeekBar
+            android:id="@+id/team_count_seek_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="5"
+            android:progress="2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Максимальное значение:" />
+
+            <TextView
+                android:id="@+id/txt_value_max"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:textColor="@color/black"
+                android:text="1000" />
+
+        </LinearLayout>
+
+        <SeekBar
+            android:id="@+id/value_max_seek_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="9999"
+            android:progress="1000" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Минимальное значение:" />
+
+            <TextView
+                android:id="@+id/txt_value_min"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:textColor="@color/black"
+                android:text="1" />
+
+        </LinearLayout>
+
+        <SeekBar
+            android:id="@+id/value_min_seek_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="9998"
+            android:progress="1" />
+
+
+
+    </LinearLayout>
+</layout>
