@@ -188,7 +188,7 @@
             android:id="@+id/btn_next_team"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Сдудующая комманда"/>
+            android:text="Следующая команда"/>
 
     </LinearLayout>
 </layout>
