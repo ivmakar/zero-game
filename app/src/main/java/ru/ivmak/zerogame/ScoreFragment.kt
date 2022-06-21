@@ -30,11 +30,11 @@ class ScoreFragment : Fragment() {
 
     private fun initView() {
 
-        binding.lTeam1.isVisible = viewModel.teamCount > 0
-        binding.lTeam2.isVisible = viewModel.teamCount > 1
-        binding.lTeam3.isVisible = viewModel.teamCount > 2
-        binding.lTeam4.isVisible = viewModel.teamCount > 3
-        binding.lTeam5.isVisible = viewModel.teamCount > 4
+        binding.lTeam1.isVisible = viewModel.teamCount.value > 0
+        binding.lTeam2.isVisible = viewModel.teamCount.value > 1
+        binding.lTeam3.isVisible = viewModel.teamCount.value > 2
+        binding.lTeam4.isVisible = viewModel.teamCount.value > 3
+        binding.lTeam5.isVisible = viewModel.teamCount.value > 4
 
         viewModel.teamScores.onEach {
             binding.txtTeam1ScoreValue.text = it[0].toString()
