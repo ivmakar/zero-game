@@ -17,4 +17,34 @@
     <color name="sd_color_red">#fa0303</color>
     <color name="sd_color_blue">#030bfa</color>
     <color name="sd_color_gray">#8F8F8F</color>
+
+    <color name="circle_blue">#19A5E4</color>
+    <color name="circle_red">#FF1744</color>
+    <color name="circle_pink">#FF4081</color>
+    <color name="circle_purple">#9C27B0</color>
+    <color name="circle_deepPurple">#673AB7</color>
+    <color name="circle_indigo">#3F51B5</color>
+    <color name="circle_cyan">#00BCD4</color>
+    <color name="circle_teal">#009688</color>
+    <color name="circle_green">#4CAF50</color>
+    <color name="circle_amber">#FFC107</color>
+    <color name="circle_orange">#FF9800</color>
+    <color name="circle_deepOrange">#FF5722</color>
+    <color name="circle_brown">#795548</color>
+    <color name="circle_green2">#58be51</color>
+
+    <color name="circle_blue_light">#9919A5E4</color>
+    <color name="circle_red_light">#99FF1744</color>
+    <color name="circle_pink_light">#99FF4081</color>
+    <color name="circle_purple_light">#999C27B0</color>
+    <color name="circle_deepPurple_light">#99673AB7</color>
+    <color name="circle_indigo_light">#993F51B5</color>
+    <color name="circle_cyan_light">#9900BCD4</color>
+    <color name="circle_teal_light">#99009688</color>
+    <color name="circle_green_light">#994CAF50</color>
+    <color name="circle_amber_light">#99FFC107</color>
+    <color name="circle_orange_light">#99FF9800</color>
+    <color name="circle_deepOrange_light">#99FF5722</color>
+    <color name="circle_brown_light">#99795548</color>
+    <color name="circle_green2_light">#9958be51</color>
 </resources>

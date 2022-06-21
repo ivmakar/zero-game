@@ -46,6 +46,23 @@ class GameRvAdapter(
                 }
             }
             binding.txtNumber.text = "?"
+
+            when (item.color) {
+                0 -> binding.imgCircle.setImageResource(R.drawable.round_color_1)
+                1 -> binding.imgCircle.setImageResource(R.drawable.round_color_2)
+                2 -> binding.imgCircle.setImageResource(R.drawable.round_color_3)
+                3 -> binding.imgCircle.setImageResource(R.drawable.round_color_4)
+                4 -> binding.imgCircle.setImageResource(R.drawable.round_color_5)
+                5 -> binding.imgCircle.setImageResource(R.drawable.round_color_6)
+                6 -> binding.imgCircle.setImageResource(R.drawable.round_color_7)
+                7 -> binding.imgCircle.setImageResource(R.drawable.round_color_8)
+                8 -> binding.imgCircle.setImageResource(R.drawable.round_color_9)
+                9 -> binding.imgCircle.setImageResource(R.drawable.round_color_10)
+                10 -> binding.imgCircle.setImageResource(R.drawable.round_color_11)
+                11 -> binding.imgCircle.setImageResource(R.drawable.round_color_12)
+                12 -> binding.imgCircle.setImageResource(R.drawable.round_color_13)
+                else -> binding.imgCircle.setImageResource(R.drawable.round_color_14)
+            }
         }
     }
 

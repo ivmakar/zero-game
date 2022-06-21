@@ -40,7 +40,7 @@ class GameFragment : Fragment() {
 
         binding.gameRv.apply {
             adapter = this@GameFragment.adapter
-            layoutManager = GridLayoutManager(requireContext(), 2)
+            layoutManager = GridLayoutManager(requireContext(), 3)
         }
 
         binding.lTeam1.isVisible = viewModel.teamCount > 0

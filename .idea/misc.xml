@@ -7,6 +7,19 @@
         <entry key="app/src/main/res/drawable/bac_white_one.xml" value="0.219" />
         <entry key="app/src/main/res/drawable/bg_shape_white_ripple.xml" value="0.219" />
         <entry key="app/src/main/res/drawable/round.xml" value="0.219" />
+        <entry key="app/src/main/res/drawable/round_color_10.xml" value="0.219" />
+        <entry key="app/src/main/res/drawable/round_color_11.xml" value="0.219" />
+        <entry key="app/src/main/res/drawable/round_color_12.xml" value="0.219" />
+        <entry key="app/src/main/res/drawable/round_color_13.xml" value="0.219" />
+        <entry key="app/src/main/res/drawable/round_color_14.xml" value="0.219" />
+        <entry key="app/src/main/res/drawable/round_color_2.xml" value="0.219" />
+        <entry key="app/src/main/res/drawable/round_color_3.xml" value="0.219" />
+        <entry key="app/src/main/res/drawable/round_color_4.xml" value="0.219" />
+        <entry key="app/src/main/res/drawable/round_color_5.xml" value="0.219" />
+        <entry key="app/src/main/res/drawable/round_color_6.xml" value="0.219" />
+        <entry key="app/src/main/res/drawable/round_color_7.xml" value="0.219" />
+        <entry key="app/src/main/res/drawable/round_color_8.xml" value="0.219" />
+        <entry key="app/src/main/res/drawable/round_color_9.xml" value="0.219" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.333786231884058" />
         <entry key="app/src/main/res/layout/dialog_ensure_layout.xml" value="0.333786231884058" />
         <entry key="app/src/main/res/layout/fragment_game.xml" value="0.333786231884058" />

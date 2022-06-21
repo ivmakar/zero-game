@@ -63,9 +63,11 @@ class MainViewModel: ViewModel() {
             repeat(numCount) { curId ->
                 val value = random.nextInt(start, end + 1)
                 Log.d(TAG, "generateNumbers: value = $value")
+
                 list.add(Number(
                     id = curId,
                     number = value,
+                    random.nextInt(0, 14),
                     onClick = {
                         numberClicked(curId)
                     }
@@ -76,6 +78,7 @@ class MainViewModel: ViewModel() {
                 list.add(Number(
                     id = numCount + curId,
                     number = 0,
+                    random.nextInt(0, 14),
                     onClick = {
                         numberClicked(numCount + curId)
                     }
