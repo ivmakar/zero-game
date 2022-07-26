@@ -151,6 +151,8 @@ class MainViewModel: ViewModel() {
 
         viewModelScope.launch(Dispatchers.IO) {
 
+        _teamScores.emit(arrayListOf(0, 0, 0, 0, 0))
+
             // Range 1: 1 - 100
             repeat(_countRange1.value) { curId ->
                 val value = random.nextInt(1, 100)

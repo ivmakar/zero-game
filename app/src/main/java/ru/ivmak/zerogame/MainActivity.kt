@@ -21,6 +21,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        viewModel.dataStore = dataStore
+        if (viewModel.dataStore == null) {
+            viewModel.dataStore = dataStore
+        }
     }
 }
